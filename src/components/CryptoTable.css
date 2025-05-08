@@ -1,0 +1,28 @@
+
+.table-container {
+    overflow-x: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .crypto-table th {
+    padding: 16px 12px;
+    font-size: 14px;
+    color: #58667e;
+    font-weight: 500;
+    border-bottom: 1px solid #eaecef;
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 768px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
